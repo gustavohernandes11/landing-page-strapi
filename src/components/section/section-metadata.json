@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_section_metadata",
+  "info": {
+    "displayName": "section_metadata",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 5,
+      "private": true
+    },
+    "section_id": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 50,
+      "required": true,
+      "regex": "^[a-zA-Z]+([0+9-]*[a-zA-Z]+)*$"
+    },
+    "background": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
