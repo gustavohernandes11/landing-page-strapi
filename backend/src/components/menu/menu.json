@@ -2,7 +2,8 @@
   "collectionName": "components_menu_menus",
   "info": {
     "displayName": "Menu",
-    "icon": "equals"
+    "icon": "equals",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,11 +15,17 @@
       "type": "text"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Menu_link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-link"
     }
   }
 }

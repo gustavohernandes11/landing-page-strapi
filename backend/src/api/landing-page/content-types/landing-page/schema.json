@@ -32,6 +32,15 @@
         "section.section-content"
       ],
       "required": true
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.menu"
+    },
+    "Footer": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
