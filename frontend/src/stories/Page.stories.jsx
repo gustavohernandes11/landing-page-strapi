@@ -9,6 +9,17 @@ export default {
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'fullscreen',
+    backgrounds: {
+      default: 'light',
+      values: [{
+        name: 'light',
+        value: "#fcfcfc"
+      },
+      {
+        name: 'dark',
+        value: '#1f1a36'
+      }]
+    }
   },
 };
 
