@@ -1,0 +1,12 @@
+.apresentation-card {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: crimson;
+    color: rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 30px;
+    width: 50%;
+}
+
+.apresentation-card-footer {
+    font-size: small;
+}
